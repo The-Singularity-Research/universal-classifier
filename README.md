@@ -5,3 +5,6 @@ These two notebooks are modified versions of the [Data Reuploading Classifier](h
 
 ### Scitkit-Learn Classifier Comparison
 ![alt text](https://scikit-learn.org/stable/_images/sphx_glr_plot_classifier_comparison_001.png)
+
+### Data Reuploading Classifier Traning Data on make_moons
+![traning_data_image_make_circles](traning_data_image_make_circles.png)
