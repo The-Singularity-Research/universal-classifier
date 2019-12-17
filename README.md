@@ -8,6 +8,22 @@ These two python notebooks are modified versions of the [Data Reuploading Classi
 
 ### Data Reuploading Classifier Traning Data on make_moons
 
+### Default Hardware
+In order to run this on an IBM quantum computer such as the 16-qubit IMB Melbourne pictured below, we simply need to change the code:
+```python
+dev = qml.device("default.qubit", wires=1)
+```
+
+to 
+
+```python
+dev = qml.device("ibmq_16_melbourne", wires=1)
+```
+
+#### IBM Melbourne Hardware Topology and Error Info
+
+
+
 #### Generating the Data
 Here we generate the data make_moons from sckikit-learn:
 ```python
