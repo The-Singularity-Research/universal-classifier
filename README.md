@@ -31,9 +31,18 @@ epochs = 20
 batch_size = 32
 ```
 The results are as follows: 
+
 ![epochs_data_make_moons](epochs_data_make_moons.png)
 
 ![traning_data_image_make_moons](traning_data_image_make_moons.png)
+
+Comparing this to the methods given in the classifier comparison of scikit learn we see the single qubit classifier, after only 20 epochs and with a single hidden layer, performs better than:
+- Linear Support Vector Machine
+- random forest
+- neural net
+- AdaBoost
+- Naive Bayes
+- QDA
 
 ### Data Reuploading Classifier Traning Data on make_circles
 
@@ -60,11 +69,15 @@ epochs = 20
 batch_size = 32
 ```
 The results are as follows: 
+
 ![epochs_data_make_circles](epochs_data_make_circles.png)
 
 ![traning_data_image_make_circles](traning_data_image_make_circles.png)
 
-
+Comparing this to the methods given in the classifier comparison of scikit learn we see the single qubit classifier, after only 20 epochs and with a single hidden layer, performs better than:
+- Linear Support Vector Machine
+- Naive Bayes
+- QDA
 
 
 
