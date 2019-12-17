@@ -1,7 +1,7 @@
 # universal-classifier
 Single qubit data reuploading universal binary classifier modified from Penny Lane
 
-These two notebooks are modified versions of the [Data Reuploading Classifier](https://pennylane.ai/qml/app/tutorial_data_reuploading_classifier.html) from [Penny Lane](https://pennylane.ai/). One runs on the [sckikit-learn](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html#sphx-glr-auto-examples-classification-plot-classifier-comparison-py) data set 'make_moons', the other runs on the scikit-learn data set 'make_circles'. 
+These two python notebooks are modified versions of the [Data Reuploading Classifier](https://pennylane.ai/qml/app/tutorial_data_reuploading_classifier.html) from [Penny Lane](https://pennylane.ai/). One runs on the [sckikit-learn](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html#sphx-glr-auto-examples-classification-plot-classifier-comparison-py) data set 'make_moons', the other runs on the scikit-learn data set 'make_circles'. 
 
 ### Scitkit-Learn Classifier Comparison
 ![alt text](https://scikit-learn.org/stable/_images/sphx_glr_plot_classifier_comparison_001.png)
@@ -9,7 +9,7 @@ These two notebooks are modified versions of the [Data Reuploading Classifier](h
 ### Data Reuploading Classifier Traning Data on make_moons
 
 #### Generating the Data
-'''python
+'''
 # Generate training and test data
 num_training = 200
 num_test = 2000
@@ -22,7 +22,7 @@ X_test = np.hstack((Xtest, np.zeros((Xtest.shape[0], 1))))
 '''
 
 #### Epochs and Loss Function
-'''python
+'''
 num_layers = 3
 learning_rate = 0.6
 epochs = 20
@@ -36,7 +36,7 @@ batch_size = 32
 ### Data Reuploading Classifier Traning Data on make_circles
 
 #### Generating the Data
-'''python
+'''
 # Generate training and test data
 num_training = 200
 num_test = 2000
@@ -49,7 +49,7 @@ X_test = np.hstack((Xtest, np.zeros((Xtest.shape[0], 1))))
 '''
 
 #### Epochs and Loss Function
-'''python
+'''
 num_layers = 3
 learning_rate = 0.6
 epochs = 20
