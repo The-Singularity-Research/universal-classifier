@@ -36,7 +36,7 @@ The results are as follows:
 
 ![traning_data_image_make_moons](traning_data_image_make_moons.png)
 
-Comparing this to the methods given in the classifier comparison of scikit-learn we see the single qubit classifier, after only 20 epochs and with a single hidden layer, performs better than:
+Comparing this to the methods given in the classifier comparison of scikit-learn we see it is not difficult to get the single qubit classifier, after only 20 epochs and with a single hidden layer, to perform better than:
 - Linear Support Vector Machine
 - random forest
 - neural net
@@ -74,7 +74,7 @@ The results are as follows:
 
 ![traning_data_image_make_circles](traning_data_image_make_circles.png)
 
-Comparing this to the methods given in the classifier comparison of scikit-learn we see the single qubit classifier, after only 20 epochs and with a single hidden layer, performs better than:
+Comparing this to the methods given in the classifier comparison of scikit-learn we see it is not difficult to get the single qubit classifier, after only 20 epochs and with a single hidden layer, to perform better than:
 - Linear Support Vector Machine
 - Naive Bayes
 - QDA
