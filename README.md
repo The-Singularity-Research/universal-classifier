@@ -9,6 +9,7 @@ These two python notebooks are modified versions of the [Data Reuploading Classi
 ### Data Reuploading Classifier Traning Data on make_moons
 
 #### Generating the Data
+Here we generate the data make_moons from sckikit-learn:
 ```python
 # Generate training and test data
 num_training = 200
@@ -22,13 +23,14 @@ X_test = np.hstack((Xtest, np.zeros((Xtest.shape[0], 1))))
 ```
 
 #### Epochs and Loss Function
+In the notebooks, we only have 20 epochs and a single hidden layer (along with one input layer and one output layer for a total of three layers):
 ```python
 num_layers = 3
 learning_rate = 0.6
 epochs = 20
 batch_size = 32
 ```
-
+The results are as follows: 
 ![epochs_data_make_moons](epochs_data_make_moons.png)
 
 ![traning_data_image_make_moons](traning_data_image_make_moons.png)
@@ -36,6 +38,7 @@ batch_size = 32
 ### Data Reuploading Classifier Traning Data on make_circles
 
 #### Generating the Data
+Here we generate the data make_circles from sckikit-learn:
 ```python
 # Generate training and test data
 num_training = 200
@@ -49,13 +52,14 @@ X_test = np.hstack((Xtest, np.zeros((Xtest.shape[0], 1))))
 ```
 
 #### Epochs and Loss Function
+In the notebooks, we only have 20 epochs and a single hidden layer (along with one input layer and one output layer for a total of three layers):
 ```python
 num_layers = 3
 learning_rate = 0.6
 epochs = 20
 batch_size = 32
 ```
-
+The results are as follows: 
 ![epochs_data_make_circles](epochs_data_make_circles.png)
 
 ![traning_data_image_make_circles](traning_data_image_make_circles.png)
