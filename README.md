@@ -27,7 +27,7 @@ In the [IBMQ Experience](https://quantum-computing.ibm.com/) we can see result o
 ### Data Reuploading Classifier Training Data on make_moons
 
 #### Generating the Data
-Here we generate the data make_moons from sckikit-learn:
+Here we generate the data make_moons from scikit-learn:
 ```python
 # Generate training and test data
 num_training = 200
@@ -65,7 +65,7 @@ Comparing this to the methods given in the classifier comparison of scikit-learn
 ### Data Reuploading Classifier Training Data on make_circles
 
 #### Generating the Data
-Here we generate the data make_circles from sckikit-learn:
+Here we generate the data make_circles from scikit-learn:
 ```python
 # Generate training and test data
 num_training = 200
