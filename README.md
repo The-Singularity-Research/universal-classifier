@@ -7,7 +7,7 @@ These two python notebooks are modified versions of the [Data Reuploading Classi
 ![alt text](https://scikit-learn.org/stable/_images/sphx_glr_plot_classifier_comparison_001.png)
 
 ### Default Hardware
-In order to run this on an IBM quantum computer such as the 16-qubit IMB Melbourne pictured below, we simply need to change the code:
+In order to run this on an IBM quantum computer such as the 14-qubit IMB Melbourne pictured below, we simply need to change the code:
 ```python
 dev = qml.device("default.qubit", wires=1)
 ```
