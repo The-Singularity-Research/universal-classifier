@@ -22,7 +22,9 @@ dev = qml.device("ibmq_16_melbourne", wires=1)
 
 #### IBM Melbourne Hardware Topology and Error Info
 
+![imb_16_melbourne](imb_16_melbourne.png)
 
+In the [IBMQ Experience](https://quantum-computing.ibm.com/) we can see result of experiemnet which have been run for this classifier. 
 
 #### Generating the Data
 Here we generate the data make_moons from sckikit-learn:
