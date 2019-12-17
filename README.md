@@ -6,8 +6,6 @@ These two python notebooks are modified versions of the [Data Reuploading Classi
 ### Scitkit-Learn Classifier Comparison
 ![alt text](https://scikit-learn.org/stable/_images/sphx_glr_plot_classifier_comparison_001.png)
 
-### Data Reuploading Classifier Traning Data on make_moons
-
 ### Default Hardware
 In order to run this on an IBM quantum computer such as the 16-qubit IMB Melbourne pictured below, we simply need to change the code:
 ```python
@@ -25,6 +23,8 @@ dev = qml.device("ibmq_16_melbourne", wires=1)
 ![imb_16_melbourne](imb_16_melbourne.png)
 
 In the [IBMQ Experience](https://quantum-computing.ibm.com/) we can see result of experiemnet which have been run for this classifier. 
+
+### Data Reuploading Classifier Training Data on make_moons
 
 #### Generating the Data
 Here we generate the data make_moons from sckikit-learn:
@@ -62,7 +62,7 @@ Comparing this to the methods given in the classifier comparison of scikit-learn
 - Naive Bayes
 - QDA
 
-### Data Reuploading Classifier Traning Data on make_circles
+### Data Reuploading Classifier Training Data on make_circles
 
 #### Generating the Data
 Here we generate the data make_circles from sckikit-learn:
