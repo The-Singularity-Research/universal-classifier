@@ -9,7 +9,7 @@ These two python notebooks are modified versions of the [Data Reuploading Classi
 ### Data Reuploading Classifier Traning Data on make_moons
 
 #### Generating the Data
-'''
+```python
 # Generate training and test data
 num_training = 200
 num_test = 2000
@@ -19,15 +19,15 @@ X_train = np.hstack((Xdata, np.zeros((Xdata.shape[0], 1))))
 
 Xtest, y_test = make_moons(num_test, noise=0.1)
 X_test = np.hstack((Xtest, np.zeros((Xtest.shape[0], 1))))
-'''
+```
 
 #### Epochs and Loss Function
-'''
+```python
 num_layers = 3
 learning_rate = 0.6
 epochs = 20
 batch_size = 32
-'''
+```
 
 ![epochs_data_make_moons](epochs_data_make_moons.png)
 
@@ -36,7 +36,7 @@ batch_size = 32
 ### Data Reuploading Classifier Traning Data on make_circles
 
 #### Generating the Data
-'''
+```python
 # Generate training and test data
 num_training = 200
 num_test = 2000
@@ -46,15 +46,15 @@ X_train = np.hstack((Xdata, np.zeros((Xdata.shape[0], 1))))
 
 Xtest, y_test = make_circles(num_test, noise=0.1)
 X_test = np.hstack((Xtest, np.zeros((Xtest.shape[0], 1))))
-'''
+```
 
 #### Epochs and Loss Function
-'''
+```python
 num_layers = 3
 learning_rate = 0.6
 epochs = 20
 batch_size = 32
-'''
+```
 
 ![epochs_data_make_circles](epochs_data_make_circles.png)
 
