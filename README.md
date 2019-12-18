@@ -97,5 +97,5 @@ Comparing this to the methods given in the classifier comparison of scikit-learn
 - Naive Bayes
 - QDA
 
-
+Disclaimer: Obviously, having an accurate comparison of the single qubit classifier above to the standard machine learning classifiers of scikit-learn requires a more detailed comparison on several comparable data sets and training parameters. This is purely a demonstration of how one can achieve nontrivial results on various data sets. 
 
