@@ -1,4 +1,6 @@
 # universal-classifier
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/The-Singularity-Research/universal-classifier/master?filepath=https%3A%2F%2Fgithub.com%2FThe-Singularity-Research%2Funiversal-classifier%2Fblob%2Fmaster%2Freuploading_classifier_make_moons.ipynb)
+
 Single qubit data reuploading universal binary classifier modified from Penny Lane
 
 These two python notebooks are modified versions of the [Data Reuploading Classifier](https://pennylane.ai/qml/app/tutorial_data_reuploading_classifier.html) from [Penny Lane](https://pennylane.ai/). One runs on the [scikit-learn](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html#sphx-glr-auto-examples-classification-plot-classifier-comparison-py) data set 'make_moons', the other runs on the scikit-learn data set 'make_circles'. 
