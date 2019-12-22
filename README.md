@@ -1,5 +1,5 @@
 # universal-classifier
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/The-Singularity-Research/universal-classifier/master?filepath=https%3A%2F%2Fgithub.com%2FThe-Singularity-Research%2Funiversal-classifier%2Fblob%2Fmaster%2Freuploading_classifier_make_moons.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/The-Singularity-Research/universal-classifier/master)
 
 Single qubit data reuploading universal binary classifier modified from Penny Lane
 
